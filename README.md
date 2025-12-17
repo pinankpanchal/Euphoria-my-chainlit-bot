@@ -26,6 +26,6 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-Add .env with OPENAI_API_KEY and TAVILY_API_KEY, then:
+# Add .env with OPENAI_API_KEY and TAVILY_API_KEY, then:
 
 chainlit run app.py -w
